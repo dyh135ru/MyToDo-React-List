@@ -16,7 +16,6 @@ function App(){
             }
         ]
     );
-<<<<<<< HEAD
 
     const addTodo = text => {
         const newTodos = [...todos, {text:text, isCompleted:false}];
@@ -29,21 +28,14 @@ function App(){
         temp.splice(index, 1);
         setTodos(temp);
     }
-=======
->>>>>>> b81d91a0200cc2757465ebd6a8820258b466e8ce
     return(<>
 
         {
             todos.map((todo,i) => 
-<<<<<<< HEAD
                 <div className="todo" key={i} id={i} onClick={removeTodo}>{todo.text}</div>)
         }
         <TodoForm addTodo={addTodo}/>
         
-=======
-                <div className="todo" key={i}>{todo.text}</div>)
-        }
->>>>>>> b81d91a0200cc2757465ebd6a8820258b466e8ce
     
     </>);
 }
