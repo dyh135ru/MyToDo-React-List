@@ -9,14 +9,21 @@ code {
   font-family: Arial;
 }
 
+.header {
+  font-size: 4em;
+  padding: 20px;
+  margin: 0;
+  color: #ffc09f;
+}
+
 .app {
-  background: #209cee;
+  background: #fcf5c7;
   padding: 30px;
   height: 100vh;
 }
 
 .todo-list {
-  background: #e8e8e8;
+  background: #a0ced9;
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
@@ -24,7 +31,7 @@ code {
 
 .todo {
   background: #fff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 2px #ffee93;
   padding: 3px 10px;
   font-size: 24px;
   margin-bottom: 6px;
