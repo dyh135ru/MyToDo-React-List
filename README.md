@@ -1,4 +1,4 @@
-# Bouncing Rainbow Balls
+# My ToDo-List React
 
 _This is an exercise developed during the course Mit xPro. It consists of doing a Todo list implementing CRUD, useStates, and other React properties._
 
